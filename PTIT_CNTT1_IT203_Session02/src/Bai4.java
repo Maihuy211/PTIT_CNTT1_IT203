@@ -8,7 +8,7 @@ public class Bai4 {
             System.out.println("Nhap ma ID sach moi (phai > 0): ");
             bookId = sc.nextInt();
             if (bookId <= 0) {
-                System.out.println("Loi: ID phai la so duong. Moi nhap lai!\n");
+                System.out.println("Loi: ID phai la so duong. Moi nhap lai!");
             }
         } while (bookId <= 0);
 

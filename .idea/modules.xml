@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java Fundamental.iml" filepath="$PROJECT_DIR$/Java Fundamental.iml" />
       <module fileurl="file://$PROJECT_DIR$/PTIT_CNTT1_IT203_Session02/PTIT_CNTT1_IT203_Session02.iml" filepath="$PROJECT_DIR$/PTIT_CNTT1_IT203_Session02/PTIT_CNTT1_IT203_Session02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PTIT_CNTT1_IT203_Session03/PTIT_CNTT1_IT203_Session03.iml" filepath="$PROJECT_DIR$/PTIT_CNTT1_IT203_Session03/PTIT_CNTT1_IT203_Session03.iml" />
     </modules>
   </component>
 </project>
