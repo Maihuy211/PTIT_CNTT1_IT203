@@ -32,7 +32,7 @@ public class Product {
         p.displayProduct();
 
         System.out.println("\nThử set giá = -100");
-        p.setPrice(-100);
+        p.setPrice(1000);
 
         p.displayProduct();
     }
