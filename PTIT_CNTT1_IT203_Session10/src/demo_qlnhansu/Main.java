@@ -3,8 +3,30 @@ package demo_qlnhansu;
 import java.util.Scanner;
 
 public class Main {
+    static Scanner sc = new Scanner(System.in);
+    public static void addEmploy(Employee[] arr){
+        int choice = 0;
+        do{
+            System.out.println("---Lựa chọn nhân sự---");
+            System.out.println("1. Nhân sự Full-time");
+            System.out.println("2. Nhân sự Part-time");
+            System.out.println("Nhập lựa chọn của bạn: ");
+            choice = sc.nextInt();
+            switch (choice){
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 0:
+                    break;
+                default:
+                    System.out.println("Lựa chọn không hợp lệ");
+            }
+
+        }while(choice != 0);
+    }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Employee[] arr = new Employee[100];
         int choice = 0;
         do{
             System.out.println("===== QUẢN LÝ NHÂN SỰ =====");
@@ -17,6 +39,7 @@ public class Main {
             choice = sc.nextInt();
             switch (choice){
                 case 1:
+                    addEmploy(arr);
                     break;
                 case 2:
                     break;

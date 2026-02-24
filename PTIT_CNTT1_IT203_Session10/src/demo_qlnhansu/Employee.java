@@ -2,7 +2,7 @@ package demo_qlnhansu;
 
 import java.util.Scanner;
 
-public abstract  class Employee implements IEmployee {
+public abstract class Employee implements IEmployee {
     private String id;
     private String name;
     private int age;
